@@ -12,7 +12,7 @@ https://github.com/dataworkshop/dw-poznan-project/wiki
 
 Na projekty i propozycję projektów można zobaczyć na wiki:
 
-https://github.com/alexiej/dw-poznan-project/wiki/Projekty---Propozycje
+https://github.com/dataworkshop/dw-poznan-project/wiki/Projekty---Propozycje
 
 ##  Spotkania
 
