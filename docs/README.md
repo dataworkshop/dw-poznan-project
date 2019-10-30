@@ -1,4 +1,4 @@
-# Welcome to Cracow Data Workshop project page!
+# Welcome to Poznań Data Workshop project page!
 
 Witamy na stronię odnośnie poznańskiej Grupy DataWorkshop:
 
