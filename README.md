@@ -1,1 +1,0 @@
-# dw-poznan-project

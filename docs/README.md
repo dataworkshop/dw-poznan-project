@@ -1,4 +1,4 @@
-# Welcome to Cracow Data Workshop project page!
+# Welcome to Poznań Data Workshop project page!
 
 Witamy na stronię odnośnie poznańskiej Grupy DataWorkshop:
 
@@ -12,7 +12,7 @@ https://github.com/dataworkshop/dw-poznan-project/wiki
 
 Na projekty i propozycję projektów można zobaczyć na wiki:
 
-https://github.com/alexiej/dw-poznan-project/wiki/Projekty---Propozycje
+https://github.com/dataworkshop/dw-poznan-project/wiki/Projekty---Propozycje
 
 ##  Spotkania
 
