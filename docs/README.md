@@ -26,7 +26,7 @@ https://github.com/dataworkshop/dw-poznan-project/wiki/Projekty---Propozycje
 
 - **Arek** (https://github.com/alexiej)
 - **Mateusz** (https://github.com/mateuszrusin/)
-- **Krzysiek** (https://github.com/krzysztofho)
+- **Krzysiek** (https://github.com/krzysztofho )
 
 ## Informacje
 
