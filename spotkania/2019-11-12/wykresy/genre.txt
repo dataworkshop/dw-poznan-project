@@ -1,0 +1,31 @@
+Gatunek:Map
+Akcja:Action
+Animacja:Animation
+Biograficzny:Biography
+Czarna komedia:Comedy
+Dramat:Drama
+Dramat historyczny:Drama
+Dramat obyczajowy:Drama
+Dramat sądowy:Drama
+Erotyczny:Romance
+Familijny:Family
+Fantasy:Fantasy
+Gangsterski:Crime
+Horror:Horror
+Katastroficzny:Adventure
+Komedia:Comedy
+Komedia kryminalna:Comedy
+Komedia obycz.:Comedy
+Komedia rom.:Comedy
+Kostiumowy:Kostiumowy
+Kryminał:Crime
+Melodramat:Melodramat
+Obyczajowy:Obyczajowy
+Przygodowy:Adventure
+Romans:Romance
+Sci-Fi:Sci-Fi
+Sensacyjny:Sensacyjny
+Surrealistyczny:Surrealistyczny
+Thriller:Thriller
+Western:Western
+Wojenny:War
