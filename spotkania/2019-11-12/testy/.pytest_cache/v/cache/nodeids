@@ -1,0 +1,6 @@
+[
+  "tests/test_kalkulator.py::test_dodaj",
+  "tests/test_kalkulator.py::test_kalulator_class::test_dodaj",
+  "tests/test_kalkulator.py::test_kalulator_class::test_dodaj_mock",
+  "tests/test_kalkulator.py::test_kalulator_class::test_mock1"
+]
