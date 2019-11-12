@@ -6,7 +6,7 @@ Ustalono że spotkamy się 12-go listopadą w strefie nauki i pracy galerii Malt
 
 * Data Engineering czyli jak połączyć dane ulubionych filmweb i IMDB
 * Wykresy, czyli co pokazać na wykresach
-* Druga część. Przedstawię metody testowania aplikacji ![:slightly_smiling_face:](assets/1f642@2x.png) 
+* Druga część. Przedstawię metody testowania aplikacji :)
 
 ## Dane
 
@@ -20,7 +20,7 @@ https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2019-11-
 
 Prezentacja dotycząca wykresów:
 
-<a href="https://colab.research.google.com/github/krzysztofho/dw-poznan-project/blob/wykresy/spotkania/2019-11-12/wykresy/marks.ipynb" rel="Open in Colab">![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)</a>
+<a href="https://colab.research.google.com/drive/1TGR42E94N8zGXFNh8dzrVovKvwmRDxft" rel="Open in Colab">![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)</a>
 
 Wykresy można zobaczyć w pliku `wykresy/marks.ipynb`
 
