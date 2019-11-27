@@ -11,7 +11,7 @@ Prezentacja ze spotkania jest dostępna w pliku: **DW Poznań - projekt filmweb-
 
 ## Notatka
 
-Dziękuje wszystkim za udział w konferencji, Mateuszowi Rusoinowi za pokazanie i pracę przy projekcie. Krzystofowi za pomoc przy analizie danych. 
+Dziękuje wszystkim za udział w spotkaniu, Mateuszowi za pokazanie i pracę przy projekcie oraz Krzystofowi za pomoc przy analizie danych. 
 
 Repozytorium jest dostępne na GitHub: https://github.com/alexiej/filmweb-rekomendacje
 
