@@ -2,6 +2,7 @@
 
 Witamy na stronię odnośnie poznańskiej Grupy DataWorkshop:
 
+https://github.com/dataworkshop/dw-poznan-project/projects/3 - Lista zadań dla naszego teamu.
 
 
 Informacje o projektach można zobaczyć na naszym wiki.
@@ -9,10 +10,15 @@ Informacje o projektach można zobaczyć na naszym wiki.
 https://github.com/dataworkshop/dw-poznan-project/wiki
 
 
-
 Na projekty i propozycję projektów można zobaczyć na wiki:
 
 https://github.com/dataworkshop/dw-poznan-project/wiki/Projekty---Propozycje
+
+
+## Projekty
+
+* filmweb-rekomendacje: https://github.com/alexiej/filmweb-rekomendacje 
+
 
 ##  Spotkania
 
