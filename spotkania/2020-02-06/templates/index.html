@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rekomendacje</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+</head>
+<body>
+
+    <div id="app">
+    <h1>
+        Oto rekomendacje naszego projektu:
+    </h1>
+    <h2>
+        <ul>
+            <li v-for="(val,index) in user_movies" :key="val">
+               [[ val['Title'] ]] ([[ val['Year'] ]]) -> ocena: [[ user_score[index] ]]
+            </li>
+        </ul>
+    </h2>
+    <div>
+        <button @click="get_recommendation"><h2>Zobacz rekomendacje</h2></button>
+        <h2 v-if="is_recommendation_ready">
+            <ul>
+                <li v-for="(val,index) in recommendations" :key="val">
+                     [[ val['Title'] ]] ([[ val['Year'] ]])
+                </li>
+            </ul>
+        </h2>
+        <h2 v-else> Nie pobrano rekomendacji</h2>
+    </div>
+    </div>
+
+    <script language="JavaScript">
+        new Vue({
+             el: '#app',
+             delimiters: ['[[', ']]'],
+             data: {
+                user_score: {{user_score|safe}},
+                user_movies:  {{user_movies|safe}},
+                is_recommendation_ready: false,
+                recommendations: {}
+             },
+             methods: {
+              async get_recommendation() {
+                console.log()
+                    let rekomendacje = []
+                    console.log(this.user_score)
+                    try {
+                        const response = await axios.post('/recommendation', this.user_score)
+                        console.log(response)
+
+                        this.recommendations = response['data'];
+                        this.is_recommendation_ready = true
+                    } catch (error) {
+                        console.error(error);
+                    }
+              }
+             }
+        })
+    </script>
+</body>
+</html>
