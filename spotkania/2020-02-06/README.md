@@ -14,6 +14,14 @@ Spotkaliśmys się 06-go lutego 2020 w clockwork Poznań. Agenda projektu
 
 Prezentacja ze spotkania jest dostępna w pliku: [DW Poznań - projekt filmweb-rekomendacje #6](https://github.com/dataworkshop/dw-poznan-project/raw/master/spotkania/2020-02-06/DW%20Pozna%C5%84%20-%20projekt%20filmweb-rekomendacje%20%236.pdf)
 
+## Video
+
+Przetwarzanie danych z filmweb cz. V | Finałowy projekt systemu rekomendacji
+
+[![Przetwarzanie danych z filmweb cz. V | Finałowy projekt systemu rekomendacji| DW Community
+](http://img.youtube.com/vi/zhcO2u0apm0/0.jpg)](http://www.youtube.com/watch?v=zhcO2u0apm0)
+
+
 ## Notatka
 
 Dzisiaj było już podsumowanie naszego projektu http://filmy-rekomendacje.pl/# w którym pokazaliśmy przez nasz gotowy projekt. Podczas prezentacji zaprezentowaliśmy nasze moytwacje i co nas skłoniło do udziału w tym projekcie. Historia projektu od listopada zeszłego roku do dzisiaj. Prezentowaliśmy także trudności które napotkaliśmy, a na koniec zaprezentowaliśmy już cały kod jak przy pomocy Flask-a, Vue.js i surprise stworzyć własny serwer to rekomendacji.
