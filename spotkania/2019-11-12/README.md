@@ -8,6 +8,20 @@ Ustalono że spotkamy się 12-go listopadą w strefie nauki i pracy galerii Malt
 * Wykresy, czyli co pokazać na wykresach
 * Druga część. Przedstawię metody testowania aplikacji :)
 
+## Video
+
+Przetwarzanie danych z filmweb cz. I | DW Community -> Data Engineering
+
+[![Przetwarzanie danych z filmweb cz. I | DW Community](http://img.youtube.com/vi/go90IOGUuQU/0.jpg)](http://www.youtube.com/watch?v=go90IOGUuQU)
+
+Przetwarzanie danych z filmweb cz. II | DW Community -> Wizualizacja Danych
+
+[![Przetwarzanie danych z filmweb cz. II | DW Community](http://img.youtube.com/vi/W4AQ7-1XAgY/0.jpg)](http://www.youtube.com/watch?v=W4AQ7-1XAgY)
+
+Przetwarzanie danych z filmweb cz. III | DW Community  -> Metody testowania aplikacji
+
+[![Przetwarzanie danych z filmweb cz. III | DW Community](http://img.youtube.com/vi/WdQKokDBZPs/0.jpg)](http://www.youtube.com/watch?v=WdQKokDBZPs)
+
 ## Dane
 
 <a href="https://colab.research.google.com/drive/1AAE2l09Qu2s13tqu_rD5E1LwSKn6Xdwy" rel="Open in Colab">![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)</a>
