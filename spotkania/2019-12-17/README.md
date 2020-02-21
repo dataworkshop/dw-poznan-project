@@ -9,6 +9,14 @@ Spotkaliśmys się 17-go grudnia 2019 w strefie nauki i pracy galerii Malta: htt
 
 Prezentacja ze spotkania jest dostępna w pliku: **DW Poznań - projekt filmweb-rekomendacje #4**
 
+## Video
+
+Przetwarzanie danych z filmweb cz. IV | Algorytmy systemu rekomendacji | DW Community
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=NQ4wW7uGHc4
+" target="_blank"><img src="http://img.youtube.com/vi/NQ4wW7uGHc4/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ## Notatka
 
 Dziękuje jeszcze raz za udział w spotkaniu, oraz przygotowanie prezentacji przez Pawła oraz Krzysztofa. Cały kod dostępny jest w Google Colab pod adresem:
