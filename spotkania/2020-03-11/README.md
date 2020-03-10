@@ -14,4 +14,14 @@ Widzimy się 11-go maraca w Future Lab PCSS, ul. Zwierzyniecka 20 (sala nr: 7)
 
 ## Pliki
 
-* 
+Plik COLAB używany podczas spotkania (tylko 10% danych Kaggle):
+
+* https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-03-11/DW_Poznan_DataWorkshop_7.ipynb
+
+Plik COLAB używany podczas spotkania (bez limitowania danych do 10%): 
+
+* https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-03-11/DW_Poznan_DataWorkshop_7_ALL_DATA.ipynb
+
+Prezentacja ze spotkania:
+
+* https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-03-11/DW%20Poznan%20-%20DataWorkshop%20%237.pdf
