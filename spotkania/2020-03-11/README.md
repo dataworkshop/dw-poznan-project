@@ -1,6 +1,6 @@
 ## Podsumowanie spotkania
 
-Dziękuje wszystkim którzy mieli chęć i sposobność uczestniczenia w spotkaniu. Wczoraj mieliśmy okazję przyjrzeć się sieciom neuronowym oraz wykorzystaniu ich w rozpoznawianiu tekstów tweetów. Filmik ze spotkania powinien pojawić się niedługo.
+Dziękuje wszystkim którzy mieli chęć i sposobność uczestniczenia w spotkaniu  :slightly_smiling_face: , a także przygotowanie sekcji przez Basię, Pawła i Krzysztofa, oraz niestety nieobecnych Marcina i Mateusza.  Wczoraj mieliśmy okazję przyjrzeć się sieciom neuronowym oraz wykorzystaniu ich w rozpoznawianiu tekstów tweetów. Filmik ze spotkania powinien pojawić się niedługo.
 
 Prezentację można ściągnąć ze strony github:
 https://github.com/dataworkshop/dw-poznan-project/raw/master/spotkania/2020-03-11/DW%20Poznan%20-%20DataWorkshop%20%237.pdf
