@@ -16,10 +16,10 @@ Prezentacja ze spotkania jest dostępna w pliku: [DW Poznań - projekt filmweb-r
 
 ## Video
 
-Przetwarzanie danych z filmweb cz. V | Finałowy projekt systemu rekomendacji
+Przetwarzanie danych z filmweb cz. VI | Finałowy projekt systemu rekomendacji | DW Community
 
-[![Przetwarzanie danych z filmweb cz. V | Finałowy projekt systemu rekomendacji| DW Community
-](http://img.youtube.com/vi/zhcO2u0apm0/0.jpg)](http://www.youtube.com/watch?v=zhcO2u0apm0)
+[![Przetwarzanie danych z filmweb cz. VI | Finałowy projekt systemu rekomendacji| DW Community
+](http://img.youtube.com/vi/e8BOWJkZMCI/0.jpg)](http://www.youtube.com/watch?v=e8BOWJkZMCI)
 
 
 ## Notatka
