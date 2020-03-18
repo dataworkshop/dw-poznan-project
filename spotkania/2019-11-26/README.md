@@ -12,7 +12,7 @@ Prezentacja ze spotkania jest dostępna w pliku: **DW Poznań - projekt filmweb-
 ### Video 
 
 Przetwarzanie danych z filmweb cz. IV | Jak zbudować Chrome Extension i serwer Flask | DW Community
-[![Przetwarzanie danych z filmweb cz. I | DW Community](http://img.youtube.com/vi/0zfvVfynYUA/0.jpg)](http://www.youtube.com/watch?v=0zfvVfynYUA)
+[![Przetwarzanie danych z filmweb cz. IV  | DW Community](http://img.youtube.com/vi/0zfvVfynYUA/0.jpg)](http://www.youtube.com/watch?v=0zfvVfynYUA)
 
 
 ## Notatka
