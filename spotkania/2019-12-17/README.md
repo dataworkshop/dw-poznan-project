@@ -11,11 +11,10 @@ Prezentacja ze spotkania jest dostępna w pliku: **DW Poznań - projekt filmweb-
 
 ## Video
 
-Przetwarzanie danych z filmweb cz. IV | Algorytmy systemu rekomendacji | DW Community
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=NQ4wW7uGHc4
-" target="_blank"><img src="http://img.youtube.com/vi/NQ4wW7uGHc4/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+Przetwarzanie danych z filmweb cz. V | Algorytmy systemu rekomendacji | DW Community
+[![Przetwarzanie danych z filmweb cz. V  | DW Community](http://img.youtube.com/vi/WPNDu2jUfIE/0.jpg)](http://www.youtube.com/watch?v=WPNDu2jUfIE)
+
 
 ## Notatka
 
