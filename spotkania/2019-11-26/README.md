@@ -9,6 +9,12 @@ Spotkaliśmys się 26-go listopadą w strefie nauki i pracy galerii Malta: http:
 
 Prezentacja ze spotkania jest dostępna w pliku: **DW Poznań - projekt filmweb-rekomendacje #3**
 
+### Video 
+
+Przetwarzanie danych z filmweb cz. IV | Jak zbudować Chrome Extension i serwer Flask | DW Community
+[![Przetwarzanie danych z filmweb cz. I | DW Community](http://img.youtube.com/vi/0zfvVfynYUA/0.jpg)](http://www.youtube.com/watch?v=0zfvVfynYUA)
+
+
 ## Notatka
 
 Dziękuje wszystkim za udział w spotkaniu, Mateuszowi za pokazanie i pracę przy projekcie oraz Krzystofowi za pomoc przy analizie danych. 
