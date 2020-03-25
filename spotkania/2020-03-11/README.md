@@ -38,6 +38,14 @@ W ramach wynagrodzenia za problem z ostatnim spotkaniem tym razem na koniec spot
 
 Widzimy się 11-go maraca w Future Lab PCSS, ul. Zwierzyniecka 20 (sala nr: 7)
 
+## Video
+
+Podstawy KERAS - co to jest i jak tego użyć do nauki NLP | DW Community
+
+[![Przetwarzanie danych z filmweb cz. VI | Finałowy projekt systemu rekomendacji| DW Community
+](http://img.youtube.com/vi/AjrkUF9mpf4/0.jpg)](https://www.youtube.com/watch?v=AjrkUF9mpf4)
+
+
 ## Pliki
 
 Plik COLAB używany podczas spotkania (tylko 10% danych Kaggle):
