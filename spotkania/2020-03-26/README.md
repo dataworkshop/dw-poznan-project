@@ -4,7 +4,7 @@ Jeszcze raz dziękuje wszystkim za uczestnictwo w spotkaniu 🙂 . Tym razem mie
 
 https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-03-26
 
-Filmik z poprzedniego można zobaczyć tutaj: 
+Filmik z poprzedniego który opisuje podstawy Keras można zobaczyć tutaj: 
 
 https://www.youtube.com/watch?v=AjrkUF9mpf4 a projekt na stronie: 
 https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-03-11
