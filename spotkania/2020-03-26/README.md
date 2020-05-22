@@ -16,7 +16,6 @@ Z pytań:
    
 #### VIDEO
 
-## Video
 
 Tensorboard i Neptune.ml
 
