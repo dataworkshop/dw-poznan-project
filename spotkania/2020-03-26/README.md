@@ -13,6 +13,16 @@ Z pytań:
 
 1. **Jak dołączyć do slacka**: Do slacka można dołączyć zapisując się na wyzwanie, wtedy dostaje się link zapraszający: 
    https://dataworkshop.eu/challenge lub https://dataworkshop.eu/matrix
+   
+#### VIDEO
+
+## Video
+
+Tensorboard i Neptune.ml
+
+[![DW POZNAN #8: Tensorboard i Neptune.ml| DW Community
+](http://img.youtube.com/vi/cF5l8OQX9HQ/0.jpg)](https://www.youtube.com/watch?v=cF5l8OQX9HQ)
+
 
 **Następne kroki:**
 
