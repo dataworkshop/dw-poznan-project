@@ -8,7 +8,8 @@ https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-05-
 
 Prezentacja jest dostępna na:
 
-https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-05-21/DW_Poznan_DataWorkshop_Prezentacja_9.pdf
+https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-05-21/DW%20Pozna%C5%84_DataWorkshop_Prezentacja_9.pdf
+
 
 #### Garść znalezionych linków:
 
