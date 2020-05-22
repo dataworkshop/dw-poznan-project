@@ -1,6 +1,6 @@
 ## Podsumowanie spotkania
 
-Jeszcze raz dziękuje wszystkim za uczestnictwo w spotkaniu 🙂 . Tym razem mieliśmy okazazję pokazać Tensorboard oraz Neptune.ml w akcji przy uczeniu modelu. W drugim etapie wybraliśmy test Kaggle do uczenia Amazon Fine Food Review który będziemy uczyć. Colab jak. to review jest dostępne na Git (DW_Poznan_DataWorkshop_8.ipynb): 
+Jeszcze raz dziękuje wszystkim za uczestnictwo w spotkaniu 🙂 . Tym razem mieliśmy okazazję pokazać Tensorboard oraz Neptune.ml w akcji przy uczeniu modelu. W drugim etapie wybraliśmy test Kaggle do uczenia Amazon Fine Food Review który będziemy uczyć. Plik Colab tak samo jak podsumowanie jest dostępne na Git (DW_Poznan_DataWorkshop_8.ipynb):
 
 https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-03-26
 
