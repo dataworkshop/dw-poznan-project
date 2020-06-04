@@ -10,6 +10,16 @@ Prezentacja jest dostępna na:
 
 https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-05-21/DW%20Pozna%C5%84_DataWorkshop_Prezentacja_9.pdf
 
+DW_POZNAN_10_Data_Augmentation_part_1.ipynb
+DW POZNAN #10 Augmentacja danych, czyli jak polepszyć model generując nowe dane.pdf
+DW_POZNAN_10_Data_Augmentation_part_2.ipynb
+
+#### VIDEO
+
+Jeśli nie pandas to co
+[![DW POZNAN #9: Jeśli nie pandas to coś| DW Community
+](http://img.youtube.com/vi/A0fnRB_Kt7k/0.jpg)](https://youtu.be/A0fnRB_Kt7k)
+
 
 #### Garść znalezionych linków:
 
