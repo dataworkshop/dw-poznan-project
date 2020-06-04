@@ -1,4 +1,2 @@
-# Podsumowanie spotkania - DW POZNAN #9 Jeśli nie pandas to coś
-
-
+## Podsumowanie spotkania - DW POZNAN #10 Augmentacja danych
 
