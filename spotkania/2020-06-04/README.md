@@ -1,7 +1,7 @@
 ## Podsumowanie spotkania - DW POZNAN #10 Augmentacja danych
 
 
-Dzięki wszystkim za spotkanie. Filmk ze spotkania powinien być już na dniach.  Tym razem miieliśmy okazję poznać kilka bardzo ciekawych bibliotek do augmentacji obrazów oraz tekstu, takich jak:
+Dzięki wszystkim za spotkanie.  Tym razem miieliśmy okazję poznać kilka bardzo ciekawych bibliotek do augmentacji obrazów oraz tekstu, takich jak:
 
 * TextAugment - https://github.com/dsfsi/textaugment
 * Nlpaug - https://pypi.org/project/nlpaug/
