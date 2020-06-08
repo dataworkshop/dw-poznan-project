@@ -13,6 +13,12 @@ oraz obrazu:
 *  Albumentations- https://albumentations.readthedocs.io/en/latest/#
 *  Keras ImageDataGenerators - https://keras.io/api/preprocessing/image/#imagedatagenerator-class
 
+#### VIDEO
+
+[![DW POZNAN #10: Jeśli nie pandas to coś| DW Community
+](http://img.youtube.com/vi/A0fnRB_Kt7k/0.jpg)](https://youtu.be/A0fnRB_Kt7k)
+
+
 #### Kod dostępny jest na GitHub:
 
 * https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-06-04/DW_POZNAN_10_Data_Augmentation_part_1.ipynb
@@ -26,5 +32,7 @@ oraz obrazu:
 #### Prezentację można oglądać na;
 
 * [Prezentacja PDF](https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-06-04/DW_POZNAN_10_PREZENTACJA.pdf)
+
+#### Kolejne spotkanie
 
 Kolejne spotkanie już za dwa tygodnie. Na dniach będzie dostępny filmik, a wydarzenie zostanie utworzone w przyszłym tygodniu. Jeśli są jakieś pytana, propozycje, to piszce śmiało na slack, mailowo :) 
