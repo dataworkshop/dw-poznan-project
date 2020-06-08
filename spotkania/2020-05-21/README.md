@@ -17,7 +17,7 @@ DW_POZNAN_10_Data_Augmentation_part_2.ipynb
 #### VIDEO
 
 [![DW POZNAN #9: Jeśli nie pandas to coś| DW Community
-](http://img.youtube.com/vi/A0fnRB_Kt7k/0.jpg)](https://youtu.be/A0fnRB_Kt7k)
+](http://img.youtube.com/vi/GUydyiysfNI/0.jpg)](https://www.youtube.com/watch?v=GUydyiysfNI)
 
 
 #### Garść znalezionych linków:
