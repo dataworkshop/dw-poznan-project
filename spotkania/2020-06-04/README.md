@@ -15,8 +15,7 @@ oraz obrazu:
 
 #### VIDEO
 
-[![DW POZNAN #10: Jeśli nie pandas to coś| DW Community
-](http://img.youtube.com/vi/A0fnRB_Kt7k/0.jpg)](https://youtu.be/A0fnRB_Kt7k)
+[![Augmentacja danych, czyli jak polepszyć model generując nowe dane | Poznań #10](http://img.youtube.com/vi/GUydyiysfNI/0.jpg)](https://youtu.be/GUydyiysfNI)
 
 
 #### Kod dostępny jest na GitHub:
