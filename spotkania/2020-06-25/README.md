@@ -4,7 +4,7 @@ Dzięki wszystkim za spotkanie.  Tym razem mamy okazję zobaczyć bibliotekę St
 
 Wszystkie przykłady oraz prezentacja  są już dostępne na naszym repozytorium GitHub:
 
-https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2019-06-25
+https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-06-25
 
 W przypadku pytania czy da się dynamicznie pokazać kod. Oczywiście jest to możliwe za pomocą metody `code` ze streramlit.
 
