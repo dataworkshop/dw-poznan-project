@@ -1,0 +1,85 @@
+#pragma once
+
+namespace Eloquent {
+    namespace ML {
+        namespace Test {
+
+            /**
+             * A tailor made test set
+             */
+            class {{ classname }} {
+                public:
+                    {{ classname }}() :
+                        _x{  {% for x in X %}
+                                { {% for xi in x %} {% if loop.index > 1 %}, {% endif %} {{ f.round(xi) }} {% endfor %} },
+                            {% endfor %}
+                        },
+                        _y{  {% for yi in y %} {% if loop.index > 1 %}, {% endif %} {{ f.round(yi) }} {% endfor %}  },
+                        _tp(0),
+                        _tn(0),
+                        _fp(0),
+                        _fn(0)
+                    {}
+
+                    template<class Classifier>
+                    void test(Classifier clf) {
+                        for (uint16_t i = 0; i < {{ X|length }}; i++) {
+                            int predicted = clf.predict(_x[i]);
+                            int actual = _y[i];
+
+                            if (predicted > 0 && predicted == actual)       _tp++;
+                            else if (predicted > 0 && predicted != actual)  _fp++;
+                            else if (predicted <= 0 && predicted == actual) _tn++;
+                            else _fn++;
+                        }
+                    }
+
+                    String dump() {
+                      return String("Support:\t")
+                            + support()
+                            + "\nTP:\t"
+                            + _tp
+                            + "\nTN:\t"
+                            + _tn
+                            + "\nFP:\t"
+                            + _fp
+                            + "\nFN:\t"
+                            + _fn
+                            + "\nAccuracy:\t"
+                            + accuracy()
+                            + "\nPrecision:\t"
+                            + precision()
+                            + "\nRecall:\t"
+                            + recall()
+                            + "\nSpecificity:\t"
+                            + specificity()
+                          ;
+                    }
+
+                    float accuracy() {
+                        return (1.0f * _tp + _tn) / support();
+                    }
+
+                    float precision() {
+                        return (1.0f * _tp) / (_tp + _fp);
+                    }
+                    float recall() {
+                        return (1.0f * _tp) / (_tp + _fn);
+                    }
+
+                    float specificity() {
+                      return (1.0f * _tn) / (_tn + _fp);
+                    }
+
+                    uint16_t support() {
+                        return _tp + _tn + _fp + _fn;
+                    }
+
+                protected:
+                    float _x[{{ X|length }}][{{ X[0]|length }}];
+                    int _y[{{ X|length }}];
+                    uint16_t _tp, _fp, _tn, _fn;
+            };
+        }
+    }
+}

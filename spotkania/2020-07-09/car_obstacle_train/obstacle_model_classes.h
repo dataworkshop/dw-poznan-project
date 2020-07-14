@@ -1,0 +1,1 @@
+unsigned char svm_action_classes[] = {'*', 'D', 'L', 'R', 'U'};

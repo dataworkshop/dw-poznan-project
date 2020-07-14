@@ -1,0 +1,21 @@
+float kernel = 0.0;
+
+for (uint16_t i = 0; i < {{ sizes.features }}; i++) {
+    {% if kernel['type'] in ['linear', 'poly', 'sigmoid'] %}
+        kernel += x[i] * {{ wi }};
+    {% elif kernel['type'] == 'rbf' %}
+        kernel += pow(x[i] - {{ wi }}, 2);
+    {% else %}
+        #error "UNKNOWN KERNEL {{ kernel['type'] }}";
+    {% endif %}
+}
+
+{% if kernel['type'] == 'poly' %}
+    return pow(({{ kernel['gamma'] }} * kernel) + {{ kernel['coef0'] }}, {{ kernel['degree'] }});
+{% elif kernel['type'] == 'rbf' %}
+    return exp(-{{ kernel['gamma'] }} * kernel);
+{% elif kernel['type'] == 'sigmoid' %}
+    return sigmoid(({{ kernel['gamma'] }} * kernel) + {{ kernel['coef0'] }});
+{% else %}
+    return kernel;
+{% endif %}

@@ -1,0 +1,32 @@
+{% set helpers = {'ii': 0} %}
+
+{% for i in range(0, sizes.classes) %}
+    {% for j in range(i + 1, sizes.classes) %}
+        {% set start_i = sizes.supports[:i].sum() %}
+        {% set start_j = sizes.supports[:j].sum() %}
+        decisions[{{ helpers.ii }}] = {{ f.round(arrays.intercepts[helpers.ii]) }}
+        {% for k in range(start_i, start_i + sizes.supports[i]) %}
+            {% with coef=arrays.coefs[j-1][k] %}
+                {% if coef == 1 %}
+                    + kernels[{{ k }}]
+                {% elif coef == -1 %}
+                    - kernels[{{ k }}]
+                {% elif coef != 0 %}
+                    + kernels[{{ k }}] * {{ f.round(coef) }}
+                {% endif %}
+            {% endwith %}
+        {% endfor %}
+        {% for k in range(start_j, start_j + sizes.supports[j]) %}
+            {% with coef=arrays.coefs[i][k] %}
+                {% if coef == 1 %}
+                    + kernels[{{ k }}]
+                {% elif coef == -1 %}
+                    - kernels[{{ k }}]
+                {% elif coef %}
+                    + kernels[{{ k }}] * {{ f.round(coef) }}
+                {% endif %}
+            {% endwith %}
+        {% endfor %};
+        {% if helpers.update({'ii': helpers.ii + 1}) %}{% endif %}
+    {% endfor %}
+{% endfor %}

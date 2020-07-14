@@ -1,0 +1,11 @@
+int val = votes[0];
+int idx = 0;
+
+for (int i = 1; i < {{ sizes.classes }}; i++) {
+    if (votes[i] > val) {
+        val = votes[i];
+        idx = i;
+    }
+}
+
+return idx;

@@ -1,0 +1,45 @@
+#pragma once
+
+namespace Eloquent {
+    namespace ML {
+        namespace Port {
+
+            class {{ classname }} {
+                public:
+                    {{ classname }}() {
+
+                    }
+
+                    uint8_t predict(float *x) {
+                        float decision[{{ arrays.vectors|length }}] = { 0 };
+                        {% for i, (rv, cf, act, b) in f.enumerate(f.zip(arrays.vectors, arrays.coefs, arrays.actives, arrays.intercepts)) %}
+                            {% if rv.shape[0] == 0 %}
+                                decision[{{ i }}] = {{ b }};
+                            {% else %}
+                                decision[{{ i }}] = (compute_kernel(x, {% for vi in rv[0] %}{% if loop.index > 1 %},{% endif %} {{ f.round(vi) }}{% endfor %}) - {{ f.round(arrays.mean[act][0]) }} ) * {{ f.round(cf[act][0] / arrays.std[act][0]) }} + {{ f.round(b) }};
+                            {% endif %}
+                        {% endfor %}
+
+                        uint8_t idx = 0;
+                        float val = decision[0];
+
+                        for (uint8_t i = 1; i < {{ arrays.vectors|length }}; i++) {
+                            if (decision[i] > val) {
+                                idx = i;
+                                val = decision[i];
+                            }
+                        }
+
+                        return idx;
+                    }
+
+                    {% include 'classmap.jinja' %}
+
+                protected:
+
+                    {% include 'svm/kernel/%s.jinja' % platform %}
+                }
+            }
+        }
+    }
+}

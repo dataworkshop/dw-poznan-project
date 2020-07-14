@@ -1,0 +1,31 @@
+#pragma once
+
+namespace Eloquent {
+    namespace ML {
+        namespace Train {
+
+            /**
+             * A tailor made training set
+             */
+            class {{ classname }} {
+                public:
+                    {{ classname }}() :
+                        _x{  {% for x in X %}
+                                { {% for xi in x %} {% if loop.index > 1 %}, {% endif %} {{ f.round(xi) }} {% endfor %} },
+                            {% endfor %}
+                        },
+                        _y{  {% for yi in y %} {% if loop.index > 1 %}, {% endif %} {{ f.round(yi) }} {% endfor %}  }
+                    {}
+
+                    template<class Classifier>
+                    void fit(Classifier clf) {
+                        clf.fit(_x, _y, {{ X|length }});
+                    }
+
+                protected:
+                    float _x[{{ X|length }}][{{ X[0]|length }}];
+                    int _y[{{ X|length }}];
+            };
+        }
+    }
+}

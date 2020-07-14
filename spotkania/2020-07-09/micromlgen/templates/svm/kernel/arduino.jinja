@@ -1,0 +1,13 @@
+/**
+ * Compute kernel between feature vector and support vector.
+ * Kernel type: {{ kernel['type'] }}
+ */
+float compute_kernel(float *x, ...) {
+    va_list w;
+    va_start(w, {{ sizes.features }});
+
+    {% with %}
+        {% set wi = 'va_arg(w, double)' %}
+        {% include 'svm/kernel/kernel.jinja' %}
+    {% endwith %}
+}

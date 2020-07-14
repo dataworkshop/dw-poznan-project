@@ -1,0 +1,45 @@
+#pragma once
+
+namespace Eloquent {
+    namespace ML {
+        namespace Port {
+
+            class {{ classname }} {
+                public:
+
+                    /**
+                     * Apply dimensionality reduction
+                     * @warn Will override the source vector if no dest provided!
+                     */
+                    void transform(float *x, float *dest = NULL) {
+                        static float u[{{ arrays.components|length }}] = { 0 };
+
+                        {% for i, component in f.enumerate(arrays.components) %}
+                        u[{{ i }}] = dot(x, {% for j, cj in f.enumerate(component) %} {% if j > 0 %},{% endif %} {{ f.round(cj) }} {% endfor %});
+                        {% endfor %}
+
+                        memcpy(dest != NULL ? dest : x, u, sizeof(float) * {{ arrays.components|length }});
+                    }
+
+                protected:
+
+                    /**
+                     * Compute dot product with varargs
+                     */
+                    float dot(float *x, ...) {
+                        va_list w;
+                        va_start(w, {{ arrays.components[0]|length }});
+
+                        static float mean[] = { {% for i, m in f.enumerate(arrays.mean) %}{% if i > 0 %},{% endif %} {{ f.round(m) }} {% endfor %} };
+                        float dot = 0.0;
+
+                        for (uint16_t i = 0; i < {{ arrays.components[0]|length }}; i++) {
+                            dot += (x[i] - mean[i]) * va_arg(w, double);
+                        }
+
+                        return dot;
+                    }
+            };
+        }
+    }
+}

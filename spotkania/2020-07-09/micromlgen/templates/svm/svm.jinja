@@ -1,0 +1,53 @@
+#pragma once
+
+namespace Eloquent {
+    namespace ML {
+        namespace Port {
+
+            class {{ classname }} {
+                public:
+                    {{ classname }}() {
+
+                    }
+
+                    /**
+                     * Predict class for features vector
+                     */
+                    int predict(float *x) {
+                        float kernels[{{ sizes.vectors }}] = { 0 };
+                        {% if sizes.classes > 1 %}
+                            float decisions[{{ sizes.decisions }}] = { 0 };
+                            int votes[{{ sizes.classes }}] = { 0 };
+                        {% endif %}
+
+                        {% include 'svm/computations/kernel/%s.jinja' % platform %}
+
+                        {% if sizes.classes == 1 %}
+                            float decision = {{ f.round(arrays.intercepts[0]) }} - ({% for i, coef in f.enumerate(arrays.coefs[0]) %} + kernels[{{ i }}] {% if coef != 1 %}* {{ f.round(coef) }}{% endif %} {% endfor %});
+
+                            return decision > 0 ? 0 : 1;
+
+                        {% elif sizes.classes == 2 %}
+                            float decision = {{ f.round(arrays.intercepts[0]) }};
+
+                            decision = decision - ({% for i in range(0, sizes.supports[0]) %} + kernels[{{ i }}] * {{ f.round(arrays.coefs[0][i]) }} {% endfor %});
+                            decision = decision - ({% for i in range(sizes.supports[0], sizes.supports[0] + sizes.supports[1]) %} + kernels[{{ i }}] * {{ f.round(arrays.coefs[0][i]) }} {% endfor %});
+
+                            return decision > 0 ? 0 : 1;
+                        {% else %}
+                            {% include 'svm/computations/decisions.jinja' %}
+                            {% include 'svm/computations/votes.jinja' %}
+                            {% include 'svm/computations/class.jinja' %}
+                        {% endif %}
+                    }
+
+                    {% include 'classmap.jinja' %}
+
+                protected:
+
+                    {% include 'svm/kernel/%s.jinja' % platform %}
+
+            };
+        }
+    }
+}

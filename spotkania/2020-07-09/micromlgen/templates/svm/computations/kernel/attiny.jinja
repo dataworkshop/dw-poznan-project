@@ -1,0 +1,4 @@
+{% for i, w in f.enumerate(arrays.supports) %}
+    {% for j, wj in f.enumerate(w) %}w[{{ j }}] = {{ f.round(wj) }}; {% endfor %}
+    kernels[{{ i }}] = compute_kernel(x, w);
+{% endfor %}
