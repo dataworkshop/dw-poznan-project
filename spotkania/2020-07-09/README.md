@@ -8,7 +8,7 @@
 
 ### Prezentacja
 
-`DWPOZNAN12_PROJEKT2.pdf`
+[DWPOZNAN12_PROJEKT2.pdf](https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-07-09/DWPOZNAN12_PROJEKT2.pdf)
 
 ![./assets/elegoo.png](./assets/model.png)
 
