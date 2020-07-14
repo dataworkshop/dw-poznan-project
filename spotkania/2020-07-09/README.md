@@ -2,7 +2,7 @@
 
 ## Podsumowanie spotkania - DW POZNAN #12 Projekt #2
 
-![./assets/elegoo.png](./assets/elegoo.png)
+![./assets/Elegoo.png](./assets/Elegoo.png)
 
 Dzięki wszystkim za spotkanie.  Tym razem mieliśmy wstęp do nowego projektu który dotyczył autonomicznego pojazdu. Nauczyliśmy się na nim
 
