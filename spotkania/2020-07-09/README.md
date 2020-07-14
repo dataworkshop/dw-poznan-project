@@ -6,7 +6,7 @@
 
 [![Autonomiczny pojazd - Projekt #2 | DW Poznań](http://img.youtube.com/vi/KEqKid9rXoM/0.jpg)](https://youtu.be/KEqKid9rXoM?list=PLa8KbhSQZVUhFsfa2Por7p10Oo8LKoBmD)
 
-![./assets/elegoo.png](./assets/elegoo.png)
+![./assets/elegoo.png](./assets/model.png)
 
 Dzięki wszystkim za spotkanie.  Tym razem mieliśmy wstęp do nowego projektu który dotyczył autonomicznego pojazdu. Nauczyliśmy się na nim
 
