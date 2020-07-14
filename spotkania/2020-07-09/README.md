@@ -6,7 +6,13 @@
 
 [![Autonomiczny pojazd - Projekt #2 | DW Poznań](http://img.youtube.com/vi/KEqKid9rXoM/0.jpg)](https://youtu.be/KEqKid9rXoM?list=PLa8KbhSQZVUhFsfa2Por7p10Oo8LKoBmD)
 
+### Prezentacja
+
+`DWPOZNAN12_PROJEKT2.pdf`
+
 ![./assets/elegoo.png](./assets/model.png)
+
+### Podsumowanie:
 
 Dzięki wszystkim za spotkanie.  Tym razem mieliśmy wstęp do nowego projektu który dotyczył autonomicznego pojazdu. Nauczyliśmy się na nim
 
@@ -27,6 +33,8 @@ Osoby chętne do udziału w projekcie mogą zgłaszać się na slacku naszego po
 
   * UDACITY :[https://github.com/udacity/self-driving-car](https://github.com/udacity/self-driving-car)
   * AUDI Autonomous dataset: [https://www.infoq.com/news/2020/04/audi-autonomous-driving/](https://www.infoq.com/news/2020/04/audi-autonomous-driving/)
+
+
 
 #### Uruchomienie
 
