@@ -2,7 +2,11 @@
 
 ## Podsumowanie spotkania - DW POZNAN #12 Projekt #2
 
-![./assets/Elegoo.png](./assets/Elegoo.png)
+## VIDEO
+
+[![Autonomiczny pojazd - Projekt #2 | DW Poznań](http://img.youtube.com/vi/KEqKid9rXoM/0.jpg)](https://youtu.be/KEqKid9rXoM?list=PLa8KbhSQZVUhFsfa2Por7p10Oo8LKoBmD)
+
+![./assets/elegoo.png](./assets/elegoo.png)
 
 Dzięki wszystkim za spotkanie.  Tym razem mieliśmy wstęp do nowego projektu który dotyczył autonomicznego pojazdu. Nauczyliśmy się na nim
 
@@ -45,6 +49,3 @@ jupter lab
   * `remote.h` - obsługa pilota IRDA oraz wejścia z klawiatury dla naszego modelu
   * `sensors.h` - odczyt sensorów takich jak odległości, lewy, środkowy i prawy czujnik czarnej linii, dioda.
 
-#### VIDEO
-
-[![Autonomiczny pojazd - Projekt #2 | DW Poznań](http://img.youtube.com/vi/KEqKid9rXoM/0.jpg)](https://youtu.be/KEqKid9rXoM?list=PLa8KbhSQZVUhFsfa2Por7p10Oo8LKoBmD)
