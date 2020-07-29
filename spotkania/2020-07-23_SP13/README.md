@@ -7,7 +7,7 @@ Dzięki wszystkim za spotkanie.  Tym razem prześledziliśmy różne symulatory 
 * Poznaliśmy po co tworzy się symulatory
 * Przyjrzeliśmy się symulatorom Udacity i TORC
 * Przyjrzeliśmy się symulatorom opartymi na `Unreal engine` **AirSim** oraz **CARLA**
-* Przyjrzeliśmy się jak proogramować symulator CARLA do własnyh celów
+* Przyjrzeliśmy się jak proogramować symulator CARLA do własnych celów
 
 ## VIDEO
 
