@@ -21,7 +21,7 @@ Dzięki wszystkim za spotkanie.  Tym razem prześledziliśmy różne symulatory 
 
 Dzięki Krzystofowi holubowicz tworzymy już symulator i zaczniemy tworzyć pierwsze obrazki do wykrywania obiektów raz symulacji jazdy. 
 
-![img](assets/Zrzut ekranu z 2020-07-26 16-52-50.png)
+![img](assets/zrzut.png)
 
 
 
