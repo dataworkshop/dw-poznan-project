@@ -3,8 +3,6 @@
 Lista wszystkich spotkań w ramach Data Workshop Poznań
 
 
-
-
 ## 2019-10-22: Spotkanie 1
 
 [https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2019-10-22](https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2019-10-22)
@@ -131,5 +129,12 @@ Dzięki wszystkim za spotkanie.  Tym razem prześledziliśmy różne symulatory 
 
 [https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-09-03_PR3_14](https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-09-03_PR3_14)
 
+Dziękuje wszystkim uczestnikiom spotkania za poświęcony czas. Tym razem:
+
+* mieliśmy okazję zobaczyć symulatory do pojazdów które możemy użyć do uczenia samochodu autonomicznego - od Udacity, TORCS po AirSim i CARLA, dzięki nim nasz autonomiczny pojazd będzie mógł się nauczyć jak prawidłowo się poruszać po mapie.  Cała prezentacja znajduje się pod linkiem:
+  https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-09-03_PR3_14/DW_POZNAN14.pdf
+* Pokazaliśmy naszą pierwszą wersje symulatora dzięki Krzysztof Holubowicz, i został on udostępniony na stronie projektu. Aplikacje pod Windows/MacOS można ściągnąć z linka podanego poniżej, a źródło znajduje się na stronie projektu.
+
+https://github.com/DataWorkshop-Foundation/poznan-project02-car-model/releases/tag/0.1alpha
 
 
