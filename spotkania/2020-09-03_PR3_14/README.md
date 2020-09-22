@@ -21,9 +21,12 @@ https://github.com/DataWorkshop-Foundation/poznan-project02-car-model/
 ## Następne Kroki
 
 * Tym razem będziemy już uczyć model na danych przedstawionych podczas tego spotkania
+
 * Na slacku przedstawie listę zadań i przykłady uczenia które pomogą w naszym algorytmie
+
 * Następne spotkanie będzie mieszane. Część która będzie chciała będzie miała możliwość przyjścia i zobaczenia modelu samochodu na żywo, ale będzie też nagrywane
-* 
+
+  
 
 Jeszcze raz dziękuje za zaanagażowanie i wyczekuje kolejnego spotkania :) 
 
