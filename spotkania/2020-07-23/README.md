@@ -13,7 +13,7 @@ Dzięki wszystkim za spotkanie.  Tym razem prześledziliśmy różne symulatory 
 
 [![Autonomiczny pojazd - Projekt #2 | DW Poznań](http://img.youtube.com/vi/Hh4UfDU6Gpk/0.jpg)](https://youtu.be/Hh4UfDU6Gpk?list=PLa8KbhSQZVUhFsfa2Por7p10Oo8LKoBmD)
 
-### PREZENTACCJA
+### PREZENTACJA
 
 [DWPOZNAN13.pdf](https://github.com/dataworkshop/dw-poznan-project/blob/master/spotkania/2020-07-23/DWPOZNAN_13.pdf)
 
@@ -21,7 +21,7 @@ Dzięki wszystkim za spotkanie.  Tym razem prześledziliśmy różne symulatory 
 
 Dzięki Krzystofowi holubowicz tworzymy już symulator i zaczniemy tworzyć pierwsze obrazki do wykrywania obiektów raz symulacji jazdy. 
 
-![img](assets/zrzut.png)
+![img](assets/zrzut.png)	
 
 
 
