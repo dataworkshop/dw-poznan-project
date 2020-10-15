@@ -137,4 +137,16 @@ Dziękuje wszystkim uczestnikiom spotkania za poświęcony czas. Tym razem:
 
 https://github.com/DataWorkshop-Foundation/poznan-project02-car-model/releases/tag/0.1alpha
 
+## 2020-10-08: Spotkanie 15
 
+[https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-10-08](https://github.com/dataworkshop/dw-poznan-project/tree/master/spotkania/2020-10-08)
+
+Dziękuje wszystkim uczestnikiom spotkania za poświęcony czas. Tym razem:
+
+* Pokazaliśmy nasz pierwszy model UNET do uczenia rozpoznawania obrazów i można go zobaczyć na stronie Kaggle.
+
+  https://www.kaggle.com/klemenko/pozna-dataworkshop-car-project-dataset
+
+* Pokazaliśmy nową wersję naszego symulatora w której możemy już nagrywać nasze przejażdzki.
+
+https://github.com/DataWorkshop-Foundation/poznan-project02-car-model/releases/tag/02alpha
