@@ -27,7 +27,7 @@ ipython @ file:///C:/ci/ipython_1593446240034/work
 ipython-genutils==0.2.0
 jedi @ file:///C:/ci/jedi_1592841982010/work
 Jinja2==2.11.2
-joblib==0.16.0
+joblib==1.2.0
 json5==0.9.5
 jsonschema==3.2.0
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594163838128/work
